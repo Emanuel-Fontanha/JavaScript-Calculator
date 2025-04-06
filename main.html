@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Calculadora de JavaScript</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Calculadora de médias em JavaScript</h1>
+		</header>
+
+		<main>
+			<section id="calculator">
+				<div id="input_area">
+					<label
+						id="label_nota"
+						for="nota"
+						>Nota:
+					</label>
+					<input id="nota" />
+					<button id="input_button">Adicionar</button>
+				</div>
+
+				<div id="grade_area">
+					<section id="historico"></section>
+				</div>
+
+				<div id="average_area">
+					<button id="average_button">Calcular Média</button>
+					<button id="reset_button">Reiniciar Histórico</button>
+					<p id="final_average">Média:</p>
+				</div>
+
+				<p id="final_status">......</p>
+			</section>
+
+			<section id="status_section">
+				<h2 id="title">Status de aprovação</h2>
+				<p id="status">
+					Se a média for maior ou igual a 8, está aprovado. Entre 6 e
+					7.9, fará recuperação. Abaixo de 6, está diretamente
+					reprovado.
+				</p>
+			</section>
+		</main>
+
+		<footer></footer>
+		<script src="script.js"></script>
+	</body>
+</html>
